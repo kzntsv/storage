@@ -15,5 +15,12 @@ func main() {
 		log.Fatal(err)
 	}
 
-	fmt.Println("it uploaded", file)
+	restoredFile, err := st.GetByID(file.ID)
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	//fmt.Println(st.files) // не сработает, т.к. в пакете file с маленькой буквы объявили
+
+	fmt.Println("it restored", restoredFile)
 }
