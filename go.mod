@@ -1,5 +1,5 @@
-module github.com/kzntsv/storage
+module github.com/kzntsv/storage/v2
 
 go 1.21.3
 
-require github.com/google/uuid v1.4.0 // indirect
+require github.com/google/uuid v1.4.0

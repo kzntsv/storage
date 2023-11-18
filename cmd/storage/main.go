@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/kzntsv/storage/internal/storage"
+	"github.com/kzntsv/storage/v2/internal/storage"
 )
 
 func main() {
